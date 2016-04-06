@@ -1,0 +1,19 @@
+{
+  "name": "new-node",
+  "version": "0.0.1",
+  "description": "node学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihaibin456/new-node.git"
+  },
+  "author": "Li HaiBin <276081503@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lihaibin456/new-node/issues"
+  },
+  "homepage": "https://github.com/lihaibin456/new-node#readme"
+}
