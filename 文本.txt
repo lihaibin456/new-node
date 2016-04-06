@@ -1,0 +1,48 @@
+GitHub  lihaibin456   lihaibin654
+
+
+
+
+$ service docker.io status
+$ service docker.io start
+创建软连接
+ln -sf /usr/bin/docker.io /usr/local/bin/docker
+ln -sf /home/bbb/下载/navicat112_mysql_en_x64/navicat /home/bbb/下载/navicat112_mysql_en_x64/navicat
+
+/home/bbb/下载/navicat112_mysql_en_x64/navicat
+
+docker run --name db001 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=000 -d mysql:5.7
+docker run --name mongodb01 -p 27017:27017 -e MYSQL_ROOT_PASSWORD=000 -d mongo
+docker run --name some-mongo -d mongo
+docker inspect 容器id“可以查看到容器的相关信息
+172.17.0.4：27017
+
+
+
+
+docker ps 
+
+netstat -tlnp端口
+
+mysql -h 0.0.0.0 -P 3306 -u root -p000
+
+npm i -g babel-cli --registry=http://registry.npm.taobao.org
+
+ln -s /home/bbb/下载/node-v4.4.2-linux-x64/bin/node /usr/sbin/node
+ln -s /home/bbb/下载/node-v4.4.2-linux-x64/bin/babel /usr/sbin/babel
+ln -s /home/bbb/下载/node-v4.4.2-linux-x64/bin/babel-node /usr/sbin/babel-node
+ln -s /home/bbb/下载/navicat112_mysql_en_x64/navicat /usr/sbin/navicat
+ln -s /home/bbb/下载/firefox/firefox /usr/bin/firefox
+
+
+npm i babel-preset-es2015 babel-preset-stage-0 --save-dev
+babel-node test.js
+$ babel test.js --out-file test.compiled.js
+  babel test.js -o test2.js -w
+------git-----
+git add package.json//选择缓冲文件
+git status//提交缓冲
+git commit -m "add package.json"//选择上传文件
+git config --global push.default matching//上传初始化
+git push//上传
+
